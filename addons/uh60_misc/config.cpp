@@ -16,3 +16,5 @@ class CfgPatches {
 #include "CfgEventHandlers.hpp"
 
 #include "config\cfgVehicles.hpp"
+
+#include "config\cfgNonAIVehicles.hpp"

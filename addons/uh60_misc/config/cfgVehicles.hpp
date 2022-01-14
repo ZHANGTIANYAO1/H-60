@@ -62,4 +62,15 @@ class cfgVehicles {
         displayName = "Blackhawk Service Platform";
         model = "\z\vtx\addons\uh60_misc\data\serviceplatform\Yax_service_test.p3d";
     };
+
+    class Rope;
+    class vtx_Rope: Rope {
+        maxRelLenght = 1.1;
+        maxExtraLenght = 20;
+        springFactor = 2.5; // higher == less stretchy rope
+        segmentType = "vtx_RopeSegment";    
+        torqueFactor = 0.5;
+        dampingFactor[] = {2,5,2};
+        //model = "\A3\Animals_F\rabbit\rabbit_F.p3d";
+    };
 };
